@@ -1,0 +1,164 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300italic,300,700,700italic&subset=latin,cyrillic);
+* {padding: 0; margin: 0;}
+html{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+body {
+	overflow: hidden;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+	color: #D2D7D3;
+}
+#background {
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+ul {
+	z-index: 2;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	right: 0;
+}
+ul li {
+	display: inline-block;
+	margin-left: 10px;
+}
+ul li a {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 12pt
+}
+ul li a:hover {color: #BFBFBF;}
+#name-project,
+	#pretext-project {
+	z-index: 2;
+	position: absolute;
+	width: 40%;
+	text-align: center;
+	top: 50%;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -10px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 42pt; 
+	color: #fff;
+	text-transform: uppercase;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;   
+}
+#name-project:hover, #pretext-project:hover{cursor: default;}
+#logo {
+	z-index: 2;
+	width: 300px;
+	position: absolute;
+	top: 10%;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+#pretext-project {
+	font-size: 14pt;
+	text-transform: none;
+	margin-top: 70px
+}
+#content {
+	z-index: 2;
+	position: absolute;
+	top: 50%;
+	left: 40%;
+	margin-right: 100px;
+	margin-top: -119px;
+	width: 50%;
+	background: #fff;
+	padding: 10px;
+	border-radius: 6px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 10pt;
+	display: none;
+}
+#loginf {
+	z-index: 2;
+	position: absolute;
+	top: 50%;
+	left: 40%;
+	margin-right: 100px;
+	margin-top: -119px;
+	width: 50%;
+	background: #fff;
+	padding: 10px;
+	border-radius: 6px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 10pt;
+	display: none;
+}
+#footer-copyright {
+	z-index: 2;
+	position: absolute;
+	bottom: 10px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 10pt;
+	text-align: center;
+	color: #BFBFBF;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/*login form*/
+input[type=button] {
+    background-color: #272d28;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type=button]:hover {
+    opacity: 0.8;
+}
+
+
+.alert {
+    padding: 15px;
+    background-color: #4c1f1b;
+    color: white;
+    margin-bottom: 15px;
+}
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
